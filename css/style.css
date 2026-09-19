@@ -614,6 +614,34 @@ a {
 
 }
 
+.ofertas-page {
+
+   margin-top: 10px;
+
+}
+
+.cabecalho-ofertas {
+
+   padding-bottom: 12px;
+
+   border-bottom: 1px solid var(--borda);
+
+   margin-bottom: 24px;
+
+}
+
+.contador-ofertas {
+
+   background: rgba(37, 99, 235, 0.08);
+
+   border-color: rgba(37, 99, 235, 0.15);
+
+   color: var(--primaria-escura);
+
+   font-weight: 700;
+
+}
+
 
 
 .grade-produtos {
@@ -647,6 +675,14 @@ a {
    transform: translateY(-5px);
 
    box-shadow: var(--sombra);
+
+}
+
+.oferta-card {
+
+   border-color: rgba(37, 99, 235, 0.15);
+
+   box-shadow: 0 12px 24px rgba(37, 99, 235, 0.05);
 
 }
 
@@ -701,6 +737,14 @@ a {
    font-size: 9px;
 
    font-weight: 800;
+
+}
+
+.oferta-card .tag-produto {
+
+   background: linear-gradient(135deg, #ef4444, #dc2626);
+
+   box-shadow: 0 8px 18px rgba(239, 68, 68, 0.25);
 
 }
 
@@ -767,6 +811,14 @@ a {
    margin-top: 3px;
 
    font-size: 17px;
+
+   color: var(--primaria-escura);
+
+}
+
+.oferta-card .produto-final {
+
+   align-items: center;
 
 }
 
